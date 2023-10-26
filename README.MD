@@ -1,8 +1,8 @@
 ##  🪄 Guia 👀
 
-* 🔖​ Crear carpeta "test-express-mvc"
-* 🔖​Ingresar a la carpeta con  ```cd test-express-mvc```
-* 🔖​Ejecutar el comando ```npm init -y```
+* 🔖​Crear carpeta "test-express-mvc"
+* 🔖​Ingresar   ```cd test-express-mvc```
+* 🔖​Ejecutar comando ```npm init -y```
 * 🔖​Instalar todas la dependencias necesarias para iniciar el proyecto
     ```
     npm install node
@@ -22,7 +22,7 @@
 }
 ```
 
-* 🔖​Crear estructara 👍
+* 🔖​Crear estructura 👍
 ```
 test-mvc-express/
   ├─ src/
