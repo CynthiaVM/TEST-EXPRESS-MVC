@@ -10,7 +10,14 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Crear primer ruta, configuracion >Ruta Home
 app.get('/', (req: Request, res: Response) => {
-	res.render('home'); // home es el nombre de la vista que quiero renderizar
+	res.render('home', { /// home es el nombre de la vista que quiero renderizar
+		titulo: 'Primera noticia 📎',
+		subtitulo: 'Comenzando con mvc, sera? 🤔',
+		contenido: 'Configurando mi primer vista con express y mvc 🔥',
+		titulodepagina: 'MVC - TEST 🐉 ',
+		numero: 0,
+	});
+
 });
 
 app.listen(port, () => {
