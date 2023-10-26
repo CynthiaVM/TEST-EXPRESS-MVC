@@ -1,13 +1,14 @@
-## Guia
-* Crear carpeta "test-express-mvc"
-* Ingresar a la carpeta con  ```cd test-express-mvc```
-* Ejecutar el comando ```npm init -y```
-* Instalar todas la dependencias necesarias para iniciar el proyecto
+##  🪄 Guia 👀
+
+* 🔖​ Crear carpeta "test-express-mvc"
+* 🔖​Ingresar a la carpeta con  ```cd test-express-mvc```
+* 🔖​Ejecutar el comando ```npm init -y```
+* 🔖​Instalar todas la dependencias necesarias para iniciar el proyecto
     ```
     npm install node
     npm install express ejs typescript ts-node @types/express @types/node
     ```
-* Crear archivo tsconfig.json
+* 🔖​Crear archivo tsconfig.json 👍
 ```
 {
     "compilerOptions": {
@@ -21,7 +22,7 @@
 }
 ```
 
-* Crear estructara 
+* 🔖​Crear estructara 👍
 ```
 test-mvc-express/
   ├─ src/
@@ -33,7 +34,7 @@ test-mvc-express/
 
 ```
 
-* agregar script en el package.json
+* 🔖​agregar script en el package.json 👍
 ```
-		"start": "ts-node src/app.ts"
+		"start": "ts-node src/app.ts" 🖱️​
 ```
